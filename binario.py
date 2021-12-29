@@ -22,13 +22,17 @@ def esBinario(strbinario=''):
 
     if strbinario != '':
 
+        # variable que se actualiza en cada iteración, True si es 1 o 0, en caso contrario False
         esBin = False
+        
+        # Bucle para comprobar la cadena de caracteres pasada por paráemtro
         for character in strbinario:
             if character == '1' or character == '0':
                 esBin = True
             else:
                 esBin = False
                 break
+            
         return esBin
 
     else:

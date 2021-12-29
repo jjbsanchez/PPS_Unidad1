@@ -76,11 +76,17 @@ def estaEnLista(valor='', lista=[]):
         if isinstance(valor, int):
 
             try:
+                
+                # almacena el valor mínimo de la lista
                 min_value = min(lista)
+                
+                # almacena el valor máximo de la lista
                 max_value = max(lista)
 
+                # comprueba si el valor está entre el mínimo y máximo de la lista
                 if estaEnRango(valor, min_value, max_value):
 
+                    # Si está en el rango, itera en la lista para comprobar si el número que ha introducido el usuario, está en la lista
                     for number in lista:
                         if valor == number:
                             return True

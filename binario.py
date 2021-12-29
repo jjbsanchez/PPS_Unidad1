@@ -20,7 +20,7 @@ def esBinario(strbinario=''):
         
     """
 
-    if strbinario:
+    if strbinario != '':
 
         esBin = False
         for character in strbinario:

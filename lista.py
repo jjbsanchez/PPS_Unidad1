@@ -37,6 +37,8 @@ def estaEnRango(valor='', minimo='', maximo=''):
         # Si los parámetros son números enteros, hace la comprobación
         if isinstance(valor, int) and isinstance(minimo, int) and isinstance(
                 maximo, int):
+            
+            # si el número está entre el mínimo y el máximo, devuelve True, en caso contrario devuelve False
             return valor >= minimo and valor <= maximo
 
         else:
@@ -86,7 +88,7 @@ def estaEnLista(valor='', lista=[]):
                 # comprueba si el valor está entre el mínimo y máximo de la lista
                 if estaEnRango(valor, min_value, max_value):
 
-                    # Si está en el rango, itera en la lista para comprobar si el número que ha introducido el usuario, está en la lista
+                    # Si está en el rango, itera en la lista para comprobar si el número que ha introducido el usuario está en dicha lista
                     for number in lista:
                         if valor == number:
                             return True

@@ -21,7 +21,8 @@ siguiente cabecera:
 
 ``` Python
 def esBinario(strbinario)
-# Devuelve True o False si la cadena de caracteres (strbinario) que se ha pasado como parámetro contiene una cadena binaria.
+# Devuelve True o False si la cadena de caracteres (strbinario) 
+# que se ha pasado como parámetro contiene una cadena binaria.
 
 # Ejemplo de esBinario:
 print(esBinario(“1001”))
@@ -38,7 +39,8 @@ cabeceras:
 
 ```Python
 def estaEnRango(valor, minimo, maximo)
-# Devuelve True o False determinando que valor se encuentra entre el mínimo y el máximo.
+# Devuelve True o False determinando que valor 
+# se encuentra entre el mínimo y el máximo.
 
 def estaEnLista(valor, lista)
 # Devuelve True o False determinando si el valor está en la lista.
